@@ -1,0 +1,11 @@
+Animal's type: Kedi
+Animal's name: Kihiro.
+Animal's type: Inek
+Animal's name: Rudolfo.
+Animal's type: Dinazor
+Animal's name: Rara.
+Animal's type: Dinazor
+Animal's name: Rara.
+Dog's name: Roxy.
+Dinazor's name: Rara.
+Eric Clapton

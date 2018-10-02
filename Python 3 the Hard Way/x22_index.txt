@@ -1,0 +1,226 @@
+Python Exercise 22 - Listing all the words, symbols learned:
+
+---------------------------------
+""" """ using multiple line comments
+
+also used for multiple line prints within 
+---------------------------------
+print(""",         #prints as multiple lines
+"""
+)
+---------------------------------
+print( "test",     # prints as single line
+"test2"
+)
+---------------------------------
+"" Double quotes for using strings
+
+'' Single quotes for using strings
+
+() paranthesis for function arguments as well as grouping
+
+# comment
+
++    # add integeres as well as arguments, strings together
+
+-    # sub
+
+/    # divide
+
+//   # divide and show integer, no floating
+
+x = round(34.6*36) # floating den kurtulmak
+
+x = int(X)         # converting the string value to integer
+
+x = int(input())   # converting user input to integer
+
+*    # multiply
+
+**   # square
+
+%    # divide and show remainder
+
+=    # naming variables
+
+==   # is it equal?
+
+!=   # not equal?
+
++=   # add variable to the new value
+
+{} 
+
+len() This method returns the length of the string. Can be used with lists, dicts
+
+set() A set is an unordered collection with no duplicate elements. Basic uses include membership testing and eliminating duplicate entries. Set objects also support mathematical operations like union, intersection, difference, and symmetric difference.
+
+| # 
+
+print(f"test {}") # to use place holders
+
+variable.formatter(1, 2, 3, 4) # another form to use place holders {}
+
+\n # escape sequence for a new line
+
+\t # escape sequence for a horizontal tab
+
+\\ # escape sequence for using "\" as is as a string divider
+
+height = input() # prompting user to input the data
+---------------------------------
+from sys import argv       #using import argument to get the info from command line
+script, first, second, third = argv
+four = input("What is between 3rd and 5th?: ")
+
+This script should be run with below command:
+python x13.py first 2nd 3rd
+---------------------------------
+text = open(filename) # opening another file within script
+
+print(text.read) # reading a file and printing the contents
+
+{filename}.close # closing the opened file after not needed to prevent issues.
+
+file.truncate() delete the contents of the file
+---------------------------------
+target = open(filename, "x")
+target.write("{}\n{}\n{}\n".format(line1, line2, line3)) # writing new data to file
+target.write(line1)
+target.write("\n")
+target.write(line2)
+---------------------------------
+from os.path import exists # checking if a path exists
+---------------------------------
+out_file = open(to_file, 'w')
+out_file.write(indata)
+
+out_file.close()
+in_file.close()
+---------------------------------
+
+def print_two_again(arg1, arg2):
+    print(f"arg1: {arg1}, arg: {arg2}")
+
+functionx("Sampiyon","Fener")
+
+when above is run, it prints:
+
+arg1: Sampiyon, arg2: Fener
+
+---------------------------------
+
+f.seek(1) # sets the starting point to character number 1 in the file.
+
+rewind(file) #sets the cursor to the beginning of the file.
+
+return # completes the instruction and prints the result to the screen
+---------------------------------
+# creating a list and appending the data from if statement to the list
+
+	list1 = []
+    
+	list2 = []
+    
+	for i in range(v, w):
+        
+		if i % k == 0 and i % s == 0:
+            
+			list1.append(i)
+
+        
+		if i % l == 0:
+            
+			list2.append(i)
+
+# 
+print(len(  set(list1) | set(list2) ))
+---------------------------------
+
+list.index(x[, start[, end]])
+
+
+This method returns index of the found object otherwise raise an exception indicating that value does not find.
+Return zero-based index in the list of the first item whose value is x. Raises a ValueError if there is no such item. The returned index is computed relative to the beginning of the full sequence rather than the start argument.
+
+list.count(x)
+Return the number of times x appears in the list.
+
+list.sort(key=None, reverse=False)
+Sort the items of the list in place (the arguments can be used for sort customization, see sorted() for their explanation).
+
+list.reverse()
+Reverse the elements of the list in place.
+
+list.copy()
+Return a shallow copy of the list. Equivalent to a[:].
+
+---------------------------------
+# if statement usage:
+
+if a = b:
+elif a = c:
+else:
+
+if a = b:
+elif a = c:
+elif a != 5:
+ 
+if a = b:
+if a = c:
+if a != 1:
+
+---------------------------------
+
+if __name__ == "__main__": # execute only if run as a script
+
+---------------------------------
+
+
+def divisible_by_7_and_11_or_13(i):
+
+    if i % 7 == 0 and i % 11 == 0:
+        return True
+        print(i, "is disivible by 7 and 11")
+    return False
+
+    if i % 13 == 0:
+        return True
+        print(i, "is divisible by 13")
+    
+
+assert(divisible_by_7_and_11_or_13(1925)) # in order to check if contion works:
+
+
+The simple form, assert expression, is equivalent to
+
+if __debug__:
+    if not expression: raise AssertionError
+
+---------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
